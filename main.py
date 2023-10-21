@@ -57,4 +57,4 @@ else:
     exit()
 
 password = ''.join(random.sample(letter, longeur + longeur_special))
-print(password)
+print('Mot de passe généré :', password)
